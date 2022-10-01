@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #eef0f1;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container .search {
+  width: 100%;
+  border: none;
+  border-radius: 16px;
+  font-size: 1rem;
+  padding: 1rem;
+  outline: 0;
+  font-family: inherit;
+  font-weight: 500;
+  -webkit-box-shadow: 0 0 15px #d7d7d7;
+          box-shadow: 0 0 15px #d7d7d7;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-box-shadow: 0 0 10px #d7d7d7;
+          box-shadow: 0 0 10px #d7d7d7;
+  margin-top: 30px;
+  padding: 30px 0;
+}
+
+.card .card-img {
+  width: 30%;
+  text-align: center;
+}
+
+.card .card-img img {
+  border-radius: 50%;
+  border: 10px solid orange;
+  width: 70%;
+}
+
+.card .card-detail {
+  width: 70%;
+  padding-right: 60px;
+}
+
+.card .card-detail a {
+  color: #343434;
+  text-decoration: none;
+}
+
+.card .card-detail a:hover {
+  text-decoration: underline;
+}
+
+.card .card-detail .repo {
+  font-weight: 600;
+  background-color: orange;
+  padding: 5px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.card .card-detail h2 {
+  font-size: 1.2rem;
+}
+
+.card .card-detail p {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card ul.repo-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+}
+
+.card ul.repo-list li {
+  padding: 10px;
+}
+
+.card ul.repo-list li:first-child {
+  padding-left: 0;
+}
+/*# sourceMappingURL=main.css.map */
